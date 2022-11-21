@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    padding: 0 0;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 5%;
+    background-color: #D6E1FF;
+}
+
+p {
+    text-align: center;
+    color: #101B43;
+    margin: 1.5em 0;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    color: #101B43;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 800;
+    margin-top: 1.5em;
+}
+
+.top-img {
+    width: 100%;
+    border-radius: 11px 11px 0 0;
+}
+
+/* Main card class is the entirety of the project except the footer.*/
+
+.main-card {
+    border-radius: 11px;
+    width: 25rem;
+    background-color: white; 
+    height: 42.6875rem;  
+    margin: 7% 0;
+}
+
+.desc-summary {
+    width: 75%;
+    line-height: 1.75;
+    font-size: 18px;
+    margin-left: 2.75em;
+    margin-top: 0;
+    opacity: 80%;
+}
+
+/*annual plan div includes svg music graphic, annual plan header, the annual rate and the change button */
+
+.annual-plan {
+    display: inline-flex;
+    contain: content;
+    width: 83%;
+    background-color: #F9F9FF;
+    margin-bottom: 1.5em;
+    border-radius: 11px;
+    padding: 1em;
+    min-height: 10%;
+}
+
+.annual-year {
+    line-height: 1.5;
+    
+}
+.plan-header {
+    font-weight: 700;
+    width: 160%;
+    margin: 0;
+}
+
+.ann-rate {
+    width: 40%;
+    margin:auto;
+    opacity: 80%;
+}
+
+.change-href {
+    padding: 1em 2em 0 0;
+}
+
+.change:hover {
+    color:  #766cf1;
+}
+.change {
+    font-weight: 700;
+    color:#392AE0;
+    margin-left: 8em;
+    
+}
+
+
+/*These are the two main and big buttons at the bottom - payment button and the more subdued cancal order a href*/
+
+
+.payment-btn {
+    background-color: #392AE0;
+    border: 0;
+    width: 90%;
+    height: 55px;
+    color: white;
+    font-weight: 700;
+    border-radius: 11px;
+    font-size: 1em;
+    box-shadow: 0 18px 40px -5px grey;
+}
+
+.payment-btn:hover {
+    background-color:  #766cf1;
+    cursor: pointer;
+}
+
+.cancel-container {
+    margin: 2em 8.5em;
+}
+.cancel-btn {
+    text-decoration: none;
+    color: #727CA0;
+    font-weight: 700;
+    
+}
+
+.cancel-btn:hover {
+    color:  #101B43;
+}
+
+@media (min-width: 1000px) {
+
+.main-card {
+    margin: 0 37%;
+}
+    
+}
